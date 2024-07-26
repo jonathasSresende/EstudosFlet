@@ -16,7 +16,7 @@ def main (page:Page):
             content=Column(
                 controls=[
                     Row(controls=[
-                        Image(src="Brand love2.png"),Icon(cupertino_icons.CHECKMARK_SEAL_FILL,color=colors.GREEN)
+                        Image(src="Brand love2.png"),Icon(cupertino_icons.CHECKMARK_SEAL_FILL, color=colors.GREEN)
                     ],alignment=MainAxisAlignment.CENTER),
                     Row(
                         controls=[
@@ -58,7 +58,7 @@ def main (page:Page):
         content=Column(
             controls=[
                 Row(controls=[
-                    Image(src="mia3.png",width=100,height=100),Icon(cupertino_icons.CHECKMARK_SEAL)
+                    Image(src="mia3.png", width=100, height=100),Icon(cupertino_icons.CHECKMARK_SEAL)
                 ], alignment=MainAxisAlignment.CENTER),
                 Row(
                     controls=[

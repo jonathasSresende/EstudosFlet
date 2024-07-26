@@ -13,7 +13,7 @@ def main (pagina:Page):
     pagina.window.center()
 
     pagina.bgcolor=colorPrimary
-    img_titulo=Image(src="aaaaaaaaaaaa.png",width=200,height=200)
+    img_titulo=Image(src="../exer3/aaaaaaaaaaaa.png", width=200, height=200)
     t_field_login=TextField(label="User",icon=icons.LOGIN)
     t_field_senha=TextField(label="Password",icon=icons.PASSWORD,password=True)
     btn_botao=ElevatedButton(text="Entrar",width=280,
@@ -29,8 +29,8 @@ def main (pagina:Page):
                               style=ButtonStyle(shape=RoundedRectangleBorder(radius=150),
                                                 bgcolor={MaterialState.DEFAULT:colorBar,
                                                          MaterialState.HOVERED:secondeColor},color=fontColor))
-    img_Gmail=Image(src="gmail.png",width=50)
-    img_Facebook=Image(src="face.png",width=50)
+    img_Gmail=Image(src="gmail.png", width=50)
+    img_Facebook=Image(src="face.png", width=50)
 
     lineImg_titulo=Row(controls=[img_titulo],alignment=MainAxisAlignment.CENTER)
     line1=Row(controls=[t_field_login],alignment=MainAxisAlignment.CENTER)

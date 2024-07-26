@@ -51,7 +51,7 @@ backgroundColor="#04D9D9"
 
 def main (pagina:Page):
     pagina.title="Tela de senha"
-    imajao=Image(src="aaaaaaaaaaaa.png",width=200,height=200)
+    imajao=Image(src="aaaaaaaaaaaa.png", width=200, height=200)
     pagina.window_max_width=600
     pagina.window_max_height=600
 
