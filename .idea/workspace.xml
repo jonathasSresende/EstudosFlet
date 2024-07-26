@@ -35,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.estudandos colunas.executor": "Run",
+    "Python.exe1.executor": "Run",
     "Python.exe2.executor": "Run",
     "Python.exe3.executor": "Run",
     "Python.exe4.executor": "Run",
@@ -45,16 +46,18 @@
     "Python.tela3menu.executor": "Run",
     "Python.tela_1.executor": "Run",
     "Python.tela_MercadoLivre.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.yuGiho.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/JARVIS/Documents/GitHub/EstudosFlet/telas",
+    "last_opened_file_path": "C:/Users/JARVIS/Documents/GitHub/EstudosFlet/exercicio_de_telas/telas",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\telas" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\telas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
