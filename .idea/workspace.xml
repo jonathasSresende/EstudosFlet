@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/aulas_do_Professor/revisao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elementos/layout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Elementos/layout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/exer6_MercadoLivre/tela_MercadoLivre.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/exer6_MercadoLivre/tela_MercadoLivre.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "Python.exer5_contender.executor": "Run",
     "Python.layout.executor": "Run",
     "Python.professor.executor": "Run",
+    "Python.revisao.executor": "Run",
     "Python.tela2.executor": "Run",
     "Python.tela3menu.executor": "Run",
     "Python.tela_1.executor": "Run",
@@ -61,17 +63,17 @@
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\telas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\aulas_do_Professor" />
+      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\telas" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\aulas_do_Professor" />
-      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\teste1_meus_testes" />
-      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\exer4_colocando_logoGMAIL" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>

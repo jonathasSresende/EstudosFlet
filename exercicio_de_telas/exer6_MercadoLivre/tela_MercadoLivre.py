@@ -2,7 +2,7 @@ from flet import *
 
 def main(page:Page):
     page.title="Mercado Livre"
-
+    page.on_scroll=True # ROLAMENTO DE PAGINA AQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
     #listview = ListView(expand=5, spacing=10, padding=25, auto_scroll=True )
 
     page.bgcolor = colors.YELLOW
