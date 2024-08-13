@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/aulas_do_Professor/revisao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/tela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/constructorCadastrar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/conta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/contato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/exer6_MercadoLivre/tela_MercadoLivre.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/exer6_MercadoLivre/tela_MercadoLivre.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +58,7 @@
     "Python.layout.executor": "Run",
     "Python.professor.executor": "Run",
     "Python.revisao.executor": "Run",
+    "Python.run.executor": "Run",
     "Python.tela2.executor": "Run",
     "Python.tela3menu.executor": "Run",
     "Python.tela_1.executor": "Run",
@@ -54,6 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/JARVIS/Documents/GitHub/EstudosFlet/exercicio_de_telas/telas",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -63,12 +79,41 @@
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\telas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
+      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\main" />
+      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\views" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\aulas_do_Professor" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas" />
-      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\telas" />
-      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas" />
-      <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\aulas_do_Professor" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EstudosFlet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercicio_de_telas/sistemabancario" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
