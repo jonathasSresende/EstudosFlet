@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/tela.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/constructorCadastrar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/cliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/conta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/contato.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,32 +29,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.estudandos colunas.executor": "Run",
-    "Python.exe1.executor": "Run",
-    "Python.exe2.executor": "Run",
-    "Python.exe3.executor": "Run",
-    "Python.exe4.executor": "Run",
-    "Python.exer5_contender.executor": "Run",
-    "Python.layout.executor": "Run",
-    "Python.professor.executor": "Run",
-    "Python.revisao.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.tela2.executor": "Run",
-    "Python.tela3menu.executor": "Run",
-    "Python.tela_1.executor": "Run",
-    "Python.tela_MercadoLivre.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.yuGiho.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/JARVIS/Documents/GitHub/EstudosFlet/exercicio_de_telas/telas",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.estudandos colunas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exe1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exe2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exe3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exe4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exer5_contender.executor&quot;: &quot;Run&quot;,
+    &quot;Python.layout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.professor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.revisao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tela2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tela3menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tela_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tela_MercadoLivre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yuGiho.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JARVIS/Documents/GitHub/EstudosFlet/exercicio_de_telas/telas&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\telas" />
