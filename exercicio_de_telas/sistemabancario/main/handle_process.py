@@ -2,7 +2,9 @@
 #https://flet.dev/blog/navigation-and-routing/#page-route  ( Documento  )
 
 from flet import Page,View
+from exercicio_de_telas.sistemabancario.main.constructor.constructorCadastrar import ConstructorCadastrar
 from exercicio_de_telas.sistemabancario.main.constructor.constructorOperacao import ConstructorOperacoes
+from exercicio_de_telas.sistemabancario.main.constructor.constructorBar import constructorBar
 def start(page:Page):
 
     page.title="Sistema Bancario"
@@ -14,17 +16,20 @@ def start(page:Page):
             View(
                 route="/",
                 controls=[
-                    ()
-                ]
+                    constructorBar(),
+                    ConstructorCadastrar(),
+
+                ],drawer=constructorBar() #PARA ALTERA PARA OUTRO LUGA NOS BOTAO TEM Q USAR O DRAWER
             )
         )
 
         #aqui estou entrando em outra pagina
-        if page.route=="operacoes":
+        if page.route=="/operacoes":
             page.views.append(
                 View(
                     route="operacoes",
                     controls=[
+                        constructorBar(),
                         ConstructorOperacoes()
                     ]
                 )
