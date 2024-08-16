@@ -5,6 +5,7 @@ from flet import Page,View
 from exercicio_de_telas.sistemabancario.main.constructor.constructorCadastrar import ConstructorCadastrar
 from exercicio_de_telas.sistemabancario.main.constructor.constructorOperacao import ConstructorOperacoes
 from exercicio_de_telas.sistemabancario.main.constructor.constructorBar import constructorBar
+from exercicio_de_telas.sistemabancario.main.constructor.constructorLogin import ConstructorLogin
 def start(page:Page):
 
     page.title="Sistema Bancario"
@@ -16,14 +17,24 @@ def start(page:Page):
             View(
                 route="/",
                 controls=[
-                    constructorBar(),
-                    ConstructorCadastrar(),
+                    ConstructorLogin()
+
 
                 ],drawer=constructorBar() #PARA ALTERA PARA OUTRO LUGA NOS BOTAO TEM Q USAR O DRAWER
             )
         )
 
         #aqui estou entrando em outra pagina
+        if page.route=="/cadastrar":
+            page.views.append(
+                View(
+                    route="cadastrar",
+                    controls=[
+                        constructorBar(),
+                        ConstructorCadastrar()
+                    ],drawer=constructorBar()
+                )
+            )
         if page.route=="/operacoes":
             page.views.append(
                 View(
@@ -31,9 +42,21 @@ def start(page:Page):
                     controls=[
                         constructorBar(),
                         ConstructorOperacoes()
-                    ]
+                    ],drawer=constructorBar()
                 )
             )
+        if page.route=="/login":
+            page.views.append(
+                View(
+                    route="login",
+                    controls=[
+                        constructorBar(),
+                        ConstructorLogin()
+                    ],drawer=constructorBar()
+                )
+            )
+
+
 
         page.update() #atualizando para outro pagina
 
