@@ -1,7 +1,7 @@
 #pagina burro so serve para ver o a tela
 
 
-from  flet import (UserControl,Image,TextField,
+from flet import (UserControl,Image,TextField,
                    ElevatedButton,ResponsiveRow,
                    Column,MainAxisAlignment,Text,FontWeight,Row,
                    icons,ButtonStyle,MaterialState,RoundedRectangleBorder,Divider,Container)
