@@ -14,7 +14,7 @@ class ViewCadastro(UserControl):
             self.cores=CoresAplicacao() #tenho que criar esse para usar as cores sem ()
 
             self.img_cadastro=Image(src="tela.png")
-            self.barraSeparadora=Container(height=20,color=self.cores.corDefault) ### mexer aquiiii
+            #self.barraSeparadora=Container(height=20,color=self.cores.corDefault) ### mexer aquiiii
             self.titulo=Text("Cadastrar",size=30,weight=FontWeight.BOLD,color=self.cores.corPrimaria)
             self.t_field_login=TextField(label="Login",icon=icons.LOGIN)                                 #todo t_field tem um icon
             self.t_field_senha=TextField(label="Senha",password=True,icon=icons.PASSWORD)
@@ -36,7 +36,7 @@ class ViewCadastro(UserControl):
                 Column(col={"xs":12,"sm":10,"md":4,"lg":2},controls=[self.img_cadastro])
             ],alignment=MainAxisAlignment.CENTER) #final da linha 1
 
-            Container(controls=[self.barraSeparadora]) #####Mexerrr aqui
+            #Container(controls=[self.barraSeparadora]) #####Mexerrr aqui
 
             linhaTitulo=Row(controls=[self.titulo],alignment=MainAxisAlignment.CENTER)
 

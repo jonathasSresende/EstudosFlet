@@ -22,7 +22,7 @@ class ControllerLogin:
 
                 for j,senha in enumerate(cadastrados["senha"]):
                     if (self.t_field_senha.value==senha) and j==ind:
-                        self.telaLogin.page.go("/cadastrar")
+                        self.telaLogin.page.go("/operacoes")
                     else:
                         self.t_field_login.error_text = "Login Invalido!"
                         self.t_field_login.update()

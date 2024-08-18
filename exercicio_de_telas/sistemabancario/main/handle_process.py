@@ -25,26 +25,6 @@ def start(page:Page):
         )
 
         #aqui estou entrando em outra pagina
-        if page.route=="/cadastrar":
-            page.views.append(
-                View(
-                    route="cadastrar",
-                    controls=[
-                        constructorBar(),
-                        ConstructorCadastrar()
-                    ],drawer=constructorBar()
-                )
-            )
-        if page.route=="/operacoes":
-            page.views.append(
-                View(
-                    route="operacoes",
-                    controls=[
-                        constructorBar(),
-                        ConstructorOperacoes()
-                    ],drawer=constructorBar()
-                )
-            )
         if page.route=="/login":
             page.views.append(
                 View(
@@ -55,6 +35,29 @@ def start(page:Page):
                     ],drawer=constructorBar()
                 )
             )
+
+        if page.route=="/operacoes":
+            page.views.append(
+                View(
+                    route="operacoes",
+                    controls=[
+                        constructorBar(),
+                        ConstructorOperacoes()
+                    ],drawer=constructorBar()
+                )
+            )
+
+        if page.route=="/cadastrar":
+            page.views.append(
+                View(
+                    route="cadastrar",
+                    controls=[
+                        constructorBar(),
+                        ConstructorCadastrar()
+                    ],drawer=constructorBar()
+                )
+            )
+
 
 
 

@@ -9,8 +9,12 @@ class ControllerBarMenu:
         self.btnRelatorio=viewBar.btnRelatorio
         self.btnOperacoes.on_click=self.trocarDePagina_Operacoes
         self.btnCadastrar.on_click=self.trocarDePagina_Cadastrar
+        self.barraMenu.btnVoltar.on_click=self.trocarDePagina_botaoVoltar
     def trocarDePagina_Operacoes(self,e):
         self.barraMenu.page.go("/operacoes")
 
     def trocarDePagina_Cadastrar(self,e):
-        self.barraMenu.page.go("/")
+        self.barraMenu.page.go("/cadastrar")
+
+    def trocarDePagina_botaoVoltar(self,e):
+        self.barraMenu.page.go("/login")
