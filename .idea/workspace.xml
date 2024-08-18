@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/EstudosFlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EstudosFlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/Grafico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/assets/bannerBank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerOperacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerRelatorio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/constructorRelatorio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerBar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/constructorOperacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/constructor/constructorOperacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewOperacoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewOperacoes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,45 +41,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.estudandos colunas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exer5_contender.executor&quot;: &quot;Run&quot;,
-    &quot;Python.layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.professor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.revisao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela3menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela_MercadoLivre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viewCadastro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yuGiho.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cHaPoLa/Documents/EstudosFlet&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.estudandos colunas.executor": "Run",
+    "Python.exe1.executor": "Run",
+    "Python.exe2.executor": "Run",
+    "Python.exe3.executor": "Run",
+    "Python.exe4.executor": "Run",
+    "Python.exer5_contender.executor": "Run",
+    "Python.layout.executor": "Run",
+    "Python.professor.executor": "Run",
+    "Python.revisao.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.tela2.executor": "Run",
+    "Python.tela3menu.executor": "Run",
+    "Python.tela_1.executor": "Run",
+    "Python.tela_MercadoLivre.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.viewCadastro.executor": "Run",
+    "Python.yuGiho.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/cHaPoLa/Documents/EstudosFlet/exercicio_de_telas/sistemabancario/assets",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cHaPoLa\Documents\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\exercicio_de_telas\telas" />
       <recent name="C:\Users\JARVIS\Documents\GitHub\EstudosFlet\telas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cHaPoLa\Documents\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\main" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas\sistemabancario\views" />
       <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\aulas_do_Professor" />
-      <recent name="C:\Users\jonathas.sresende\Documents\GitHub\EstudosFlet\exercicio_de_telas" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,5 +129,16 @@
       <updated>1719495699408</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewOperacoes.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

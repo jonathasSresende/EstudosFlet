@@ -79,7 +79,7 @@ from flet import (UserControl,Image,TextField,
                     ElevatedButton,ResponsiveRow,
                     Column,MainAxisAlignment,Text,FontWeight,Row,
                     icons,ButtonStyle,MaterialState,RoundedRectangleBorder,
-                    AlertDialog,DataTable,DataColumn,DataCell,DataRow)
+                    AlertDialog,DataTable,DataColumn,DataCell,DataRow,alignment)
 
 from exercicio_de_telas.sistemabancario.utils.paletaCores import CoresAplicacao
 
@@ -88,7 +88,7 @@ class ViewOperacoes(UserControl):
     def __init__(self):
         super().__init__()
         self.cores=CoresAplicacao()
-        self.img_operacoes=Image(src="Banner_jonathas.gif")
+        self.img_operacoes=Image(src="bannerBank.png")
         self.btnDepositar=ElevatedButton(text="Depositar",
                                          style=ButtonStyle(
                                              color=self.cores.corBranca,
@@ -110,6 +110,19 @@ class ViewOperacoes(UserControl):
 
                                          ),
                                      width=200,height=45)
+
+        self.btnRelatorio = ElevatedButton(text="Relatorio",
+                                       style=ButtonStyle(
+                                           color=self.cores.corBranca,
+                                           bgcolor={
+                                               MaterialState.DEFAULT: self.cores.corDefault,
+                                               MaterialState.HOVERED: self.cores.corSecundaria
+                                           },
+                                           shape=RoundedRectangleBorder(radius=5),
+
+                                       ),
+                                       width=200, height=45)
+
         self.t_field_valor=TextField(label="Valor")
 
         self.tabela=DataTable(
@@ -132,7 +145,8 @@ class ViewOperacoes(UserControl):
         line2=ResponsiveRow(controls=[
             Column(col={"xs":12,"sm":10,"md":4,"lg":4},controls=[
                 self.btnSacar,
-                self.btnDepositar
+                self.btnDepositar,
+                self.btnRelatorio
             ]),
             Column(col={"xs":12,"sm":10,"md":8,"lg":6},controls=[
                 self.t_field_valor

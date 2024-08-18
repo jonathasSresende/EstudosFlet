@@ -6,6 +6,7 @@ from exercicio_de_telas.sistemabancario.main.constructor.constructorCadastrar im
 from exercicio_de_telas.sistemabancario.main.constructor.constructorOperacao import ConstructorOperacoes
 from exercicio_de_telas.sistemabancario.main.constructor.constructorBar import constructorBar
 from exercicio_de_telas.sistemabancario.main.constructor.constructorLogin import ConstructorLogin
+from exercicio_de_telas.sistemabancario.main.constructor.constructorRelatorio import ConstructorRelatorio
 def start(page:Page):
 
     page.title="Sistema Bancario"
@@ -54,6 +55,17 @@ def start(page:Page):
                     controls=[
                         constructorBar(),
                         ConstructorCadastrar()
+                    ],drawer=constructorBar()
+                )
+            )
+
+        if page.route=="/relatorio":
+            page.views.append(
+                View(
+                    route="relatorio",
+                    controls=[
+                        constructorBar(),
+                        ConstructorRelatorio()
                     ],drawer=constructorBar()
                 )
             )
