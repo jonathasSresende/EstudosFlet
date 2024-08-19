@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EstudosFlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EstudosFlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewCadastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/main/handle_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,33 +37,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.estudandos colunas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exe4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exer5_contender.executor&quot;: &quot;Run&quot;,
-    &quot;Python.layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.professor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.revisao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela3menu.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tela_MercadoLivre.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viewCadastro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yuGiho.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cHaPoLa/Documents/EstudosFlet/exercicio_de_telas/sistemabancario/assets&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.estudandos colunas.executor": "Run",
+    "Python.exe1.executor": "Run",
+    "Python.exe2.executor": "Run",
+    "Python.exe3.executor": "Run",
+    "Python.exe4.executor": "Run",
+    "Python.exer5_contender.executor": "Run",
+    "Python.layout.executor": "Run",
+    "Python.professor.executor": "Run",
+    "Python.revisao.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.tela2.executor": "Run",
+    "Python.tela3menu.executor": "Run",
+    "Python.tela_1.executor": "Run",
+    "Python.tela_MercadoLivre.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.viewCadastro.executor": "Run",
+    "Python.viewLogin.executor": "Run",
+    "Python.yuGiho.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/cHaPoLa/Documents/EstudosFlet/exercicio_de_telas/sistemabancario/assets",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cHaPoLa\Documents\EstudosFlet\exercicio_de_telas\sistemabancario\assets" />
@@ -107,7 +112,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
@@ -129,6 +134,25 @@
           <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewOperacoes.py</url>
           <line>77</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewBar.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerBar.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerBar.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

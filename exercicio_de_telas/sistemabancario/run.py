@@ -1,4 +1,4 @@
-from flet import app
+from flet import app,WEB_BROWSER
 from  exercicio_de_telas.sistemabancario.main.handle_process import start
 
 if __name__ == '__main__':

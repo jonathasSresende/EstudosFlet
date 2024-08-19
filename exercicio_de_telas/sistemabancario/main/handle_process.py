@@ -21,22 +21,11 @@ def start(page:Page):
                     ConstructorLogin()
 
 
-                ],drawer=constructorBar() #PARA ALTERA PARA OUTRO LUGA NOS BOTAO TEM Q USAR O DRAWER
+                ]
             )
         )
 
         #aqui estou entrando em outra pagina
-        if page.route=="/login":
-            page.views.append(
-                View(
-                    route="login",
-                    controls=[
-                        constructorBar(),
-                        ConstructorLogin()
-                    ],drawer=constructorBar()
-                )
-            )
-
         if page.route=="/operacoes":
             page.views.append(
                 View(
