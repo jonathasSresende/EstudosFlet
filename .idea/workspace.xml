@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aaef706-2551-4238-923a-ae63ac9b46a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Elementos/depuracao/depuracao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elementos/depuracao/depuracao2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/model/entity/conta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.depuracao.executor": "Run",
+    "Python.depuracao2.executor": "Run",
     "Python.estudandos colunas.executor": "Run",
     "Python.exe1.executor": "Run",
     "Python.exe2.executor": "Run",
@@ -144,11 +148,6 @@
           <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/controller/controllerBar.py</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exercicio_de_telas/sistemabancario/views/viewRelatorio.py</url>
-          <line>214</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

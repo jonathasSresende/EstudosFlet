@@ -56,16 +56,16 @@ class ViewRelatorio(UserControl):
 
 
     def build(self):
-        linhaBtnEntrar = Row(col={"sm": 6, "md": 4, "xl": 2},
+        linhaBtnEntrar = Row(col={"sm": 5, "md": 2, "xl": 5},
                              controls=[self.btn_pesquisar],
                              alignment=MainAxisAlignment.CENTER
                              )
 
         barraOpcoes=ResponsiveRow(controls=[
-            Column(col={"sm": 6, "md": 4, "xl": 2},controls=[self.t_field_calendario]),
-            Column(col={"sm": 6, "md": 4, "xl": 2},controls=[self.btn_calendario]),
-            Column(col={"sm": 6, "md": 4, "xl": 2},controls=[self.dropCategoria]),
-            Column(col={"sm": 6, "md": 4, "xl": 2},controls=[linhaBtnEntrar])
+            Column(col={"sm": 2, "md": 5, "xl": 5},controls=[self.t_field_calendario]),
+            Column(col={"sm": 2, "md": 5, "xl": 5},controls=[self.btn_calendario]),
+            Column(col={"sm": 3, "md": 5, "xl": 4},controls=[self.dropCategoria]),
+            Column(col={"sm": 2, "md": 5, "xl": 5},controls=[linhaBtnEntrar])
         ],alignment=MainAxisAlignment.CENTER,vertical_alignment=CrossAxisAlignment.CENTER)
         grafico=ResponsiveRow(controls=[Container(content=self.grafico)])
 
