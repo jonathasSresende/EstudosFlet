@@ -1,11 +1,12 @@
 from flet import (UserControl,Text,Image,TextField,ElevatedButton,ButtonStyle,MaterialState,
-                  RoundedRectangleBorder,ResponsiveRow,Column,MainAxisAlignment,alignment,Row)
+                  RoundedRectangleBorder,ResponsiveRow,Column,MainAxisAlignment,alignment,Row,colors)
 
 
 from exercicio_de_telas.sistemabancario.utils.paletaCores import CoresAplicacao
 class ViewLogin(UserControl):
     def __init__(self):
         super().__init__()
+
         self.cores=CoresAplicacao()
         self.titulo=Text("Login",size=30,color=self.cores.corPrimaria)
         self.img_login=Image(src="tela.png")
